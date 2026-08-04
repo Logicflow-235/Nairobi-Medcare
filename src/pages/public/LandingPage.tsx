@@ -24,7 +24,9 @@ return(
         </div>
         </div>  
        <div className="grid grid-cols-2 bg-blue-100">
-        <img className="shadow-md w-full rounded-2xl object-cover border-2 border-blue-600" src={missionimage} alt="Picture of our doctors"/>
+        <div className="p-2">
+         <img className="shadow-2xl shadow-blue-800/90 w-full rounded-2xl object-cover" src={missionimage} alt="Picture of our doctors"/>
+        </div>
         <div className="font-[Popping] flex flex-col items-center justify-center gap-4">
             <h2 className="text-3xl text-bold ">Our Mission</h2>
           <p className="text-gray-900font-[Popping] text-lg p-6">At Nairobi MedCare, we believe getting quality healthcare shouldn't mean long queues or endless phone calls. We connect you with trusted doctors across Nairobi in just a few clicks — so you can spend less time waiting and more time getting better.</p>
