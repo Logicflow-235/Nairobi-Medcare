@@ -6,8 +6,9 @@ export default function Navbar(){
                 <h1 className="font-extrabold">Nairobi MedCare</h1>
                 <h3 className="font-medium">We Care About your Health</h3>
             </div>
-            <nav>
+            <nav className="flex gap-6 text-lg font-medium">
                 <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
             </nav>
         </div>
     )

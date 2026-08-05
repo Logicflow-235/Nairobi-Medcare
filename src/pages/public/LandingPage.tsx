@@ -7,6 +7,10 @@ import consoltation from "../../assets/consoltation.jpg"
 import pediatrics from "../../assets/pediatrics.jpg";
 import Gynecology from "../../assets/Gynecology.webp";
 import radiology from "../../assets/radiology.jpg";
+import pharmacy from "../../assets/pharmacy.jpg";
+import Emergency from "../../assets/Emergency.jpg";
+import optical from "../../assets/optical.webp";
+import Laboratory from "../../assets/Laboratory.jpg";
 import { useEffect, useState } from "react";
 export default function LandingPage () {
 const images = [heroimage, heroimage1, heroimage2, heroimage3]
@@ -68,31 +72,31 @@ return(
               </div>
            </div>
            <div className="flex flex-col rounded-3xl shadow-2xl shadow-blue-800/90 p-4 gap-2 bg-blue-100 ">
-              <img className="w-full" src={pediatrics} alt="picture of pediatricians"/>
+              <img className="w-full" src={pharmacy} alt="picture of our pharmacy"/>
               <div>
-                 <h3>Pediatric Care</h3>
-                 <p>Specialized healthcare for children and adolescents.</p>
+                 <h3>Pharmacy</h3>
+                 <p>Access to a wide range of medications and healthcare products.</p>
               </div>
            </div>
            <div className="flex flex-col rounded-3xl shadow-2xl shadow-blue-800/90 p-4 gap-2 bg-blue-100 ">
-              <img className="w-full" src={pediatrics} alt="picture of pediatricians"/>
+              <img className="w-full" src={Emergency} alt="picture of our emergency department"/>
               <div>
-                 <h3>Pediatric Care</h3>
-                 <p>Specialized healthcare for children and adolescents.</p>
+                 <h3>Emergency Care</h3>
+                 <p>24/7 emergency services for critical medical situations.</p>
               </div>
            </div>
            <div className="flex flex-col rounded-3xl shadow-2xl shadow-blue-800/90 p-4 gap-2 bg-blue-100 ">
-              <img className="w-full" src={pediatrics} alt="picture of pediatricians"/>
+              <img className="w-full" src={optical} alt="picture of our optical department"/>
               <div>
-                 <h3>Pediatric Care</h3>
-                 <p>Specialized healthcare for children and adolescents.</p>
+                 <h3>Optical Care</h3>
+                 <p>Comprehensive eye care services for all ages.</p>
               </div>
            </div>
            <div className="flex flex-col rounded-3xl shadow-2xl shadow-blue-800/90 p-4 gap-2 bg-blue-100 ">
-              <img className="w-full" src={pediatrics} alt="picture of pediatricians"/>
+              <img className="w-full" src={Laboratory} alt="picture of laboratory science"/>
               <div>
-                 <h3>Pediatric Care</h3>
-                 <p>Specialized healthcare for children and adolescents.</p>
+                 <h3>Laboratory Science</h3>
+                 <p>Advanced diagnostic testing for accurate medical insights.</p>
               </div>
            </div>
          </div>

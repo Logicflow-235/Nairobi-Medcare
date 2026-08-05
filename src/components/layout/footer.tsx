@@ -64,10 +64,12 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>General Consultation</li>
               <li>Emergency Care</li>
-              <li>Laboratory</li>
+              <li>Laboratory </li>
               <li>Pharmacy</li>
               <li>Radiology</li>
               <li>Pediatrics</li>
+              <li>Optical Care</li>
+              <li>Gynecology</li>
             </ul>
           </div>
 
